@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DesignToolKit.001</string>
+   >
+
+    <string name="switch_name">Switch</string>
+    <string name="button">button</string>
+    <string name="next">next</string>
+    <string name="buttons">Buttons</string>
+</resources>
