@@ -15,14 +15,26 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".NextActivity" />
+
+        <activity android:name=".NextActivity" >
+
+
+        </activity>
+
         <activity android:name=".ButtonActivity" />
+
+       <activity-alias
+         android:name=".Mainactivity"
+         android:targetActivity=".MainActivity">
+         <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+       </activity-alias>
+
+    
     </application>
 
 </manifest>
